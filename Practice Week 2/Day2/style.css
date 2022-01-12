@@ -74,3 +74,7 @@ aside p{
     animation-name:example;
     animation-duration: 2s;
 }
+@keyframes example{
+    from{}
+    to{}
+}
