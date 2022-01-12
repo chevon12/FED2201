@@ -34,6 +34,7 @@ button:hover{
     border-color: springgreen;
     color: springgreen;
 }
+
 #aboutMe{
     border: 2px solid white;
 }
@@ -47,10 +48,15 @@ button:hover{
     border: 3px solid black;
 
 }
-#myContact{
+#myContact{   
+    display:flex;
+    position: -webkit-sticky;
+    position: sticky;
     border: 4px solid black;
     justify-content: space-between;
+ 
 }
+
 #main{
     font-family: cursive;
 }
