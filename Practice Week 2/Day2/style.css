@@ -55,7 +55,7 @@ aside p{
 .transitions-and-animations h3{
     font-size: 30px;
 }
-#box{
+#transitions-box{
     width: 25vw;
     height: 25vw;
     background-color: green;
@@ -63,6 +63,14 @@ aside p{
 
 }
 
-#box:hover{
-    width: 50%;
+#transition-box:hover{
+    width: 50vw;
+    height: 50vw;
+}
+#animation-box{
+    width: 25vw;
+    height: 25vw;
+    background-color: blue;
+    animation-name:example;
+    animation-duration: 2s;
 }
