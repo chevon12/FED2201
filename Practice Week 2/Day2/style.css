@@ -31,8 +31,38 @@ aside p{
 .column{
     flex-direction: column;
 }
+/* Using flexbox and queries*/
 .flexboxDiv{
     display: flex;
     justify-content: space-around;
     align-items:center;
+}
+
+@media (orientation: landscape){
+    .flexboxDiv{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items:center;
+    }
+ @media(orientation: portrait){
+     .flexboxDiv{
+         flex-direction: column;
+     }
+ }
+}
+
+/*transitions and animations */
+.transitions-and-animations h3{
+    font-size: 30px;
+}
+#box{
+    width: 25vw;
+    height: 25vw;
+    background-color: green;
+    transition: width 2s, height 4s;
+
+}
+
+#box:hover{
+    width: 50%;
 }
