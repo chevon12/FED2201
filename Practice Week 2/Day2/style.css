@@ -67,14 +67,24 @@ aside p{
     width: 50vw;
     height: 50vw;
 }
+
 #animation-box{
     width: 25vw;
     height: 25vw;
     background-color: blue;
     animation-name:example;
-    animation-duration: 2s;
+    animation-duration: width 2s, height 4s;
+    animation-iteration-count: infinite;
 }
+#animation-box:hover{
+    width: 50vw;
+    height: 50vw;
+}
+
 @keyframes example{
-    from{}
-    to{}
+    from{background-color: blue;
+    }
+
+    to{background-color: red;
+    }
 }
