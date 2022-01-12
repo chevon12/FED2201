@@ -1,8 +1,12 @@
-* {
-    background-color: purple (0,0, 1)
-    color: purple;
-}
-
 h2{
     color: goldenrod;
+}
+button{
+    background: none;
+    color: pink;
+    border: 2px solid;
+}
+button:hover{
+    border-color: springgreen;
+    color: springgreen;
 }
