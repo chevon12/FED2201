@@ -38,6 +38,12 @@ button:hover{
 #aboutMe{
     border: 2px solid white;
 }
+#song{
+    border: 2px solid white;
+}
+#video{
+    align-content: center ;
+}
 #hobbiesInterests{
     border: 2px solid white;
 }
@@ -59,4 +65,7 @@ button:hover{
 
 #main{
     font-family: cursive;
+    text-align: center;
+    -ms-flex-item-align: center;
+    
 }
