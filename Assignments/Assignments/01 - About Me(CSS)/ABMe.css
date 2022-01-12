@@ -21,6 +21,8 @@ figure{
     text-align: center;
 }
 nav{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 button{
@@ -38,8 +40,16 @@ button:hover{
 #hobbiesInterests{
     border: 2px solid white;
 }
+#froggy{
+    border: 2px solid white;
+}
+#subscribeNewsletter{
+    border: 3px solid black;
+
+}
 #myContact{
-    border: 4px solid black
+    border: 4px solid black;
+    justify-content: space-between;
 }
 #main{
     font-family: cursive;
