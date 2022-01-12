@@ -1,5 +1,26 @@
+h1{
+    text-align: center;
+}
 h2{
     color: goldenrod;
+    text-align: center;
+}
+h3{
+    color: purple;
+    text-align: center;
+}
+form{
+    text-align:center;
+}
+p{
+    color: hotpink;
+    text-align:center;
+}
+figure{
+    text-align: center;
+}
+nav{
+    text-align: center;
 }
 button{
     background: none;
