@@ -6,22 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dase Home</title>
     <link rel="stylesheet" href="home.css" />
+    <style>
+      .flexbox {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
   </head>
   <body>
-    <h1>DASE</h1>
-    <figure>
-      <img
-        src="daselogo.png"
-        alt="daselogo"
-        width="500px"
-        style="height=500px"
-      />
-    </figure>
-    <button type="submit" class="ren">
-      <a href="login.html">Login</a>
-    </button>
-    <button type="submit" class="ren">
-      <a href="signup.html">Sign Up</a>
-    </button>
+    <div class="flexbox">
+      <figure>
+        <img
+          src="daselogo.png"
+          alt="daselogo"
+          width="500px"
+          style="height=500px"
+        />
+      </figure>
+      <button type="submit" class="ren">
+        <a href="login.html">Login</a>
+      </button>
+      <button type="submit" class="ren">
+        <a href="signup.html">Sign Up</a>
+      </button>
+    </div>
   </body>
 </html>
