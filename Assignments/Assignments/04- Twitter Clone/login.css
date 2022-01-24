@@ -1,5 +1,7 @@
 body {
   background-image: url("background.jpg");
+  align-content: center;
+  font-family: "Roboto Slab", serif;
 }
 .container {
   display: flex;
