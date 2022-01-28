@@ -12,6 +12,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="header">
@@ -25,6 +26,21 @@
       <form action="javascript:void(0);" method="post" onsubmit="app.Add()">
         <input type="text" id="add-todo" placeholder="My Todo List" />
         <input type="submit" value="add" class="btn btn-primary" />
+      </form>
+      <p>User has:</p>
+      <p id="counter"></p>
+      <table>
+        <tr class="To-Do">
+          <th><h3>To-Do List:</h3></th>
+        </tr>
+        <tbody id="tasks"></tbody>
+      </table>
+    </div>
+    <div id="edit-box" role="aria-hidden">
+      <form action="javascript:void(0);" method="post" id="save-edit">
+        <input type="text" id="edit-todo" />
+        <input type="submit" value="save" class="btn btn-success" />
+        <a onclick="CloseInput()" aria-label="close">& #1006;</a>
       </form>
     </div>
   </body>
