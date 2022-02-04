@@ -19,3 +19,22 @@ body {
   margin: 50px;
   background-color: #1da1f2;
 }
+.sgn-out-btn {
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  border-radius: 100px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  width: auto;
+  height: 44px;
+  width: 70px;
+  font-weight: bold;
+}
+
+.btn-login:hover {
+  background-color: #eaf5fd;
+  color: #1da1f2;
+}
