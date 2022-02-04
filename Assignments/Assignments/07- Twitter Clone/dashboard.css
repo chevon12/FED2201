@@ -9,3 +9,13 @@ body {
     url("edge-icons-Regular.woff") format("woff"),
     url("edge-icons-Regular.ttf") format("truetype");
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 375;
+  height: 750px;
+  border-radius: 40px;
+  margin: 50px;
+  background-color: #1da1f2;
+}
