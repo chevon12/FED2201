@@ -19,7 +19,7 @@ body {
   margin: 50px;
   background-color: #1da1f2;
 }
-.sgn-out-btn {
+.sign-out-btn {
   background-color: #fff;
   border: 1px solid #1da1f2;
   color: #1da1f2;
@@ -34,7 +34,7 @@ body {
   font-weight: bold;
 }
 
-.btn-login:hover {
+.sign-out-btn:hover {
   background-color: #eaf5fd;
   color: #1da1f2;
 }
