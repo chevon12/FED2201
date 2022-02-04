@@ -2,3 +2,10 @@ body {
   margin: 0px;
   font-family: "Segoe UI", Arial, sans-serif;
 }
+@font-face {
+  font-family: "edgeicons";
+  src: url("edge-icons-Regular.eot");
+  src: url("edge-icons-Regular.eot?#iefix") format("embedded-opentype"),
+    url("edge-icons-Regular.woff") format("woff"),
+    url("edge-icons-Regular.ttf") format("truetype");
+}

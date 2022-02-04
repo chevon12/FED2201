@@ -2,3 +2,76 @@ body {
   margin: 0px;
   font-family: "Segoe UI", Arial, sans-serif;
 }
+@font-face {
+  font-family: "edgeicons";
+  src: url("edge-icons-Regular.eot");
+  src: url("edge-icons-Regular.eot?#iefix") format("embedded-opentype"),
+    url("edge-icons-Regular.woff") format("woff"),
+    url("edge-icons-Regular.ttf") format("truetype");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 375;
+  height: 750px;
+  border-radius: 40px;
+  margin: 50px;
+  background-color: #1da1f2;
+}
+.forgot-password {
+  color: #aab8c2;
+  font-size: 14px;
+}
+
+.btn-login {
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  border-radius: 100px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  width: auto;
+  height: 44px;
+  width: 70px;
+  font-weight: bold;
+}
+
+.btn-login:hover {
+  background-color: #eaf5fd;
+  color: #1da1f2;
+}
+
+.btn-sign-up {
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  border-radius: 100px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  width: auto;
+  height: 44px;
+  width: 70px;
+  font-weight: bold;
+}
+.btn-sign-up:hover {
+  background-color: #fff;
+  color: #1da1f2;
+}
+.footer .nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+.footer .nav ul li {
+  margin-right: 15px;
+  color: #aab8c2;
+  font-size: 12px;
+}
